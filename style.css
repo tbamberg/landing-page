@@ -1,29 +1,25 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 h1, 
 h2 {
     color: #F9FAF8;
     margin: 0;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 h1 {
     font-size: 48px;
-    
 }
 
 p, 
 a {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-a {
-    text-decoration: none;
     margin: 0;
+    text-decoration: none;
 }
 
 ul {
@@ -48,10 +44,19 @@ li {
 }
 
 .hero {
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
+.button {
+    display: inline-block;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px 32px;
+    text-align: center;
+    font-weight: bold;
+}
 
 
 
