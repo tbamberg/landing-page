@@ -11,21 +11,33 @@ ul {
     padding: 0;
 }
 
+p, 
 li {
-    margin-left: 32px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.header, .hero {
+li {
+    margin-left: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header, 
+.hero {
     background-color: #1F2937;
-    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
 }
 
-.header {
-
+.header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 
