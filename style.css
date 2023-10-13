@@ -33,7 +33,8 @@ img {
 }
 
 .header, 
-.hero {
+.hero, 
+.footer {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -140,4 +141,9 @@ img {
 
 .CTA-box .button {
     border: 4px solid #F9FAF8;
+}
+
+.footer p {
+    color: #F9FAF8;
+    margin: auto;
 }
